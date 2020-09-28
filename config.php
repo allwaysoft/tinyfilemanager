@@ -46,7 +46,7 @@ $edit_files = true;
 
 // Default timezone for date() and time()
 // Doc - http://php.net/manual/en/timezones.php
-$default_timezone = 'Etc/UTC'; // UTC
+$default_timezone = 'Asia/Shanghai'; // UTC
 
 // Root path for file manager
 // use absolute path of directory i.e: '/var/www/folder' or $_SERVER['DOCUMENT_ROOT'].'/folder'
@@ -68,7 +68,7 @@ $iconv_input_encoding = 'UTF-8';
 
 // date() format for file modification date
 // Doc - https://www.php.net/manual/en/function.date.php
-$datetime_format = 'd.m.y H:i';
+$datetime_format = 'yy-m-d H:i';
 
 // Allowed file extensions for create and rename files
 // e.g. 'txt,html,css,js'
@@ -101,7 +101,7 @@ $sticky_navbar = true;
 
 
 // max upload file size
-$max_upload_size_bytes = 2048;
+$max_upload_size_bytes = 2048000000000;
 
 // Possible rules are 'OFF', 'AND' or 'OR'
 // OFF => Don't check connection IP, defaults to OFF
