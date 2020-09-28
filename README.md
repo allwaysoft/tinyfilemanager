@@ -1,3 +1,4 @@
+Windows 和 Linux 都能正确显示中文
 # Tiny File Manager
 
 
